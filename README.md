@@ -27,6 +27,7 @@ a symlink to the git checkout named easysvc.
       service_hasrestart => true,
     }
   }
+  # For the above example, ntp.conf.erb is provided in the templates directory.
 ```
 
 ## Notes
