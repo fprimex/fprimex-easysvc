@@ -41,6 +41,7 @@ define "easysvc::svc",
   end
 
   service @service_name,
+    :enable     => @service_enable,
     :ensure     => svc_ensure,
     :name       => @service_name,
     :hasstatus  => @service_hasstatus,
